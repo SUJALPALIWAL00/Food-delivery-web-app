@@ -1,0 +1,19 @@
+@import "tailwindcss";
+.active{
+  background-color: #;
+  border: 2px solid #ff5722;
+  
+}
+
+
+/* For removing up-down arrows from the price input field of type number */
+@layer utilities {
+  .no-spinner::-webkit-inner-spin-button,
+  .no-spinner::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .no-spinner {
+    -moz-appearance: textfield; /* Firefox */
+  }
+}
