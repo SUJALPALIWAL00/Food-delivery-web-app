@@ -37,7 +37,7 @@ const MyOrders = () => {
                                         return (item.name + " x " + item.quantity + ", ")
                                     }
                                 })}
-                            </p>
+                            </p> 
                         </div>
                     )
                 })}
